@@ -2,34 +2,34 @@
 using namespace std;
 int main(){
 	
-	cout << "W zakresie 0 - 100 ile punktow dostales" << endl;
+	cout << "Podaj wynik egzaminu (liczba punktow)" << endl;
 	
 	int punkty;
 	cin >> punkty;
 	
 	if (punkty <=49) {
 	
-	cout << "ocena niedostateczna"  <<endl;
+	cout << "ocena: niedostateczna"  <<endl;
     }
 	else if ((punkty > 49) && (punkty <=69)) 
 	{
-	cout << "ocena dostateczna" << endl;}
+	cout << "ocena: dostateczna" << endl;}
 	
 	else if ((punkty >=70) && (punkty < 85)) 
 	{
-	cout << "ocena dobra" << endl;
+	cout << "ocena: dobra" << endl;
 	}
 	else if ((punkty >=85) && (punkty <= 99))
 	{
-	cout << " ocena bardzo dobra" << endl;
+	cout << " ocena: bardzo dobra" << endl;
 	}
 	else if (punkty == 100)
 	{
-	cout << "ocena celujaca" << endl;
+	cout << "ocena: celujaca" << endl;
 	}
 	else
 	{
-	cout << "to nie jest liczba w zakresie 0-100"
+	cout << "to nie jest liczba w zakresie 0-100";
 	}
 	
 	return 0;

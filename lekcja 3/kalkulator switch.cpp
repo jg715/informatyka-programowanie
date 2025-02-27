@@ -41,10 +41,11 @@ int main(){
 			
 		case '/':
 			wynik = liczba1/liczba2;
-				cout << wynik << endl;
+				cout <<"wynik:" <<wynik << endl;
 				break;
 			
 		
 		
 	}
+	
 }
